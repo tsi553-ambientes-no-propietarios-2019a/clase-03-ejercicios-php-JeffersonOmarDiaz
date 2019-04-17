@@ -12,4 +12,16 @@ Para imprimir el contenido de una variable también utilizamos el comando echo:
 
 echo $num;
  */
+$num=rand(1,100);
+$compara =50;
+echo "Nùmero randòmico ";
+echo $num;
+echo "<br>";
+if($num>50){
+    echo $num, " es mayor que ",$compara;
+}elseif($num<50){
+    echo $num, " es menor que ",$compara;
+}else{
+    echo $num, " es igual a ",$compara;
+}
 ?>
